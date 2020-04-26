@@ -17,7 +17,7 @@ interface Pagina {
 
 const paginas: Array<Pagina> = [
   { pagina: 'Listagem', rota: '/' },
-  { pagina: 'Importação', rota: '/import' },
+  { pagina: 'Importar', rota: '/import' },
 ];
 
 const Header: React.FC<HeaderProps> = ({ size = 'large' }: HeaderProps) => {
